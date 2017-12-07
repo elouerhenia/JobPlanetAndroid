@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/white">
+
+
+    <!-- Thumbnail Image -->
+
+    <!-- Titre -->
+
+    <!-- Description -->
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/id_cand_thumbnail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_menu_camera"
+                android:layout_above="@+id/item_cand_mail"
+                android:layout_alignParentStart="true" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_cand_adr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Titre fgfdg fdsfdsfTitre fgfdg fdsfdsfTitre fgfdg fdsfdsfTitre fgfdg fdsfdsfTitre fgfdg fdsfdsf"
+                android:textColor="#000"
+                android:textSize="17dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="19dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_cand_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:maxLines="1"
+                android:text="tel"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_alignBaseline="@+id/item_cand_nom_prenom"
+                android:layout_alignBottom="@+id/item_cand_nom_prenom"
+                android:layout_toEndOf="@+id/item_cand_mail"
+                android:layout_marginStart="21dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_cand_nom_prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Titre"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_above="@+id/item_cand_mail"
+                android:layout_toEndOf="@+id/id_cand_thumbnail"
+                android:layout_marginStart="27dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/item_cand_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:maxLines="1"
+                android:text="mail"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/item_cand_nom_prenom"
+                android:layout_marginStart="29dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:text="supprimer"
+                android:id="@+id/item_cand_supp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="50dp" />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_Offres"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Offre d'emlpoi" />
+        <item
+            android:id="@+id/nav_recherche"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Recherche avancée" />
+        <item
+            android:id="@+id/nav_deposez_cv"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Déposee CV" />
+        <item
+            android:id="@+id/nav_profils_entreprises"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Profils entreprises" />
+        <item
+            android:id="@+id/nav_saves"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Enregistrement" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_registrer_candidat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.tn.isamm.jobplanet.candidant.RegistrerCandidat"
+    tools:showIn="@layout/activity_registrer_candidat">
+
+
+    <EditText
+        android:id="@+id/register_nom_cand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nom candid" />
+
+    <EditText
+        android:id="@+id/register_prenom_cand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prenom candid" />
+
+    <EditText
+        android:id="@+id/register_adresse_cand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adresse candid" />
+
+
+    <EditText
+        android:id="@+id/register_code_postale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2021" />
+
+
+    <EditText
+        android:id="@+id/register_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avatar candid" />
+
+    <EditText
+        android:id="@+id/register_tel_cand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23313208" />
+
+    <EditText
+        android:id="@+id/register_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mail@candid.com" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pwdcandid" />
+
+    <EditText
+        android:id="@+id/register_repassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pwdcandid" />
+
+    <Button
+        android:id="@+id/register_submit"
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

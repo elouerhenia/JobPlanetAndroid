@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_exp"
+        android:textSize="14sp"
+        android:text="Mon profil"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Coordonnées personnels"
+        android:id="@+id/btn_go_to_coordonne_personnel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Expériences"
+        android:id="@+id/btn_goto_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Formations"
+        android:id="@+id/btn_go_to_formation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Certificats"
+        android:id="@+id/btn_go_to_certif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Upload CV"
+        android:id="@+id/btn_go_to_uploadcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Upload Lettre motivation"
+        android:id="@+id/btn_go_to_upload_lettre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
